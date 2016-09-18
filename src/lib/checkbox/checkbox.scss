@@ -195,7 +195,8 @@ md-checkbox {
   // `cursor: inherit` ensures that the wrapper element gets the same cursor as the md-checkbox
   // (e.g. pointer by default, regular when disabled), instead of the browser default.
   cursor: inherit;
-  align-items: baseline;
+  // align-items: baseline;
+  align-items: center;
   display: inline-flex;
 }
 
